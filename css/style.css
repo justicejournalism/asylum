@@ -7,7 +7,8 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
-  text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+  font-weight: bold;
 }
 h1 {
   font-size: 70px;
@@ -19,10 +20,29 @@ h3 {
   font-size: 30px;
 }
 p {
+	text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
   font-size: 18px;
 }
 .attribution {
 	position: absolute;
 	bottom: 20px;
 	right: 20px;
+}
+.gallery-cell.top .content-wrapper {
+	vertical-align: top;
+	padding-top: 40px;
+}
+.gallery-cell.bottom .content-wrapper {
+	vertical-align: bottom;
+	padding-bottom: 40px;
+}
+
+.gallery-cell.bg-top{
+	background-position: top center;
+}
+
+#asylums-granted-chart {
+	margin: 0 auto;
+	width: 100%;
+	height: 400px;
 }
